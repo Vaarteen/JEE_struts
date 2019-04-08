@@ -16,5 +16,6 @@
         <h1>Accueil</h1>
         <p>Bonjour</p>
         <a href="<s:url action='about' />">A propos</a>
+        <p><s:a action="multiplicationTable">Table de multiplication</s:a></p>
     </body>
 </html>
