@@ -4,6 +4,7 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 
+<%@taglib prefix="s" uri="/struts-tags" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -16,5 +17,6 @@
         <p>Prendre le framework Struts en main</p>
         <h1>Equipe de développement</h1>
         <ul><li>H. Caffarel</li></ul>
+        <a href="<s:url value='/index.jsp' />" >Accueil</a>
     </body>
 </html>

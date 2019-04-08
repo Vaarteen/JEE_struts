@@ -4,6 +4,7 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 
+<%@taglib prefix="s" uri="/struts-tags" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,5 +15,6 @@
     <body>
         <h1>Accueil</h1>
         <p>Bonjour</p>
+        <a href="<s:url action='about' />">A propos</a>
     </body>
 </html>
