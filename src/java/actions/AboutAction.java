@@ -11,8 +11,11 @@ import java.time.format.FormatStyle;
  */
 public class AboutAction extends ActionSupport {
 
+    private static int visits = 0;
+
     @Override
     public String execute() throws Exception {
+        visits++;
         return SUCCESS;
     }
 
@@ -26,4 +29,12 @@ public class AboutAction extends ActionSupport {
                 .format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM));
     }
 
+    /**
+     * Returns the counter 'page access'.
+     *
+     * @return how many time this view has been accessed.
+     */
+    public int getVisits() {
+        return visits;
+    }
 }

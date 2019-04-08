@@ -19,5 +19,6 @@
         <ul><li>H. Caffarel</li></ul>
         <p>Nous sommes le <s:property value="today" /></p>
         <a href="<s:url action='index' />">Accueil</a>
+        <p>Cette page a été affichée <s:property value="visits" /> fois</p>
     </body>
 </html>
