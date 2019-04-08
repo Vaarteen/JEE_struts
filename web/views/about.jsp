@@ -17,6 +17,7 @@
         <p>Prendre le framework Struts en main</p>
         <h1>Equipe de développement</h1>
         <ul><li>H. Caffarel</li></ul>
+        <p>Nous sommes le <s:property value="today" /></p>
         <a href="<s:url value='/index.jsp' />" >Accueil</a>
     </body>
 </html>
