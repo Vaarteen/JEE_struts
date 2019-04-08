@@ -18,6 +18,6 @@
         <h1>Equipe de développement</h1>
         <ul><li>H. Caffarel</li></ul>
         <p>Nous sommes le <s:property value="today" /></p>
-        <a href="<s:url value='/index.jsp' />" >Accueil</a>
+        <a href="<s:url action='index' />">Accueil</a>
     </body>
 </html>
