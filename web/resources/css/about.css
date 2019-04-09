@@ -1,0 +1,13 @@
+/* 
+    Created on : 9 avr. 2019, 12:03:46
+    Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
+*/
+
+#team {
+    list-style-type: none;
+}
+
+li.hecaff {
+    list-style-image: url("../pictures/herbertcaffarel.png");
+    list-style-position: inside;
+}
