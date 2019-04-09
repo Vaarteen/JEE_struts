@@ -10,12 +10,25 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="<s:url value='resources/css/global.css' />">
         <title>Accueil</title>
     </head>
     <body>
-        <h1>Accueil</h1>
-        <p>Bonjour</p>
-        <a href="<s:url action='about' />">A propos</a>
-        <p><s:a action="multiplicationTable">Table de multiplication</s:a></p>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="<s:url action='index' />">Accueil</a></li>
+                    <li><a href="<s:url action="about" />">&Agrave; propos</a></li>
+                    <li><a href="<s:url action='multiplicationTable' />">Table de multiplication</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+            <h1>Accueil</h1>
+            <p>Bonjour</p>
+        </section>
+        <footer>
+            <p>&copy;H. Caffarel</p>
+        </footer>
     </body>
 </html>

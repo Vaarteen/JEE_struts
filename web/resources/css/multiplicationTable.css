@@ -1,0 +1,28 @@
+/* 
+    Created on : 9 avr. 2019, 11:32:26
+    Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
+*/
+
+table {
+    margin: 0px 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(2n) {
+    background-color: bisque;
+}
+
+tr:nth-of-type(2n+1) {
+    background-color: blanchedalmond;
+}
+
+th {
+    background-color: burlywood;
+}
+
+td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}

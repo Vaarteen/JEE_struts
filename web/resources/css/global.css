@@ -1,0 +1,34 @@
+/* 
+    Created on : 9 avr. 2019, 10:59:51
+    Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
+*/
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    border-bottom: 3px solid brown;
+}
+
+footer {
+    border-top: 3px solid brown;
+    font-style: oblique;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px 5px 5px 0px;;
+    background-color: peru;
+    border : 1px solid brown;
+    border-radius: 5px 0px;
+}
+
+#content {
+    padding:10px;
+}
+
+#date {
+    font-weight: bold;
+}
