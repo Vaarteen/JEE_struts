@@ -4,10 +4,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>${param.title}</title>
-        <link rel="stylesheet" href="<c:url value='resources/css/global.css' />">
+        <link rel="stylesheet" href="<c:url value='/resources/css/global.css' />">
         <c:if test="${param.cssFiles!=null}">
             <c:forTokens items="${param.cssFiles}" delims="|" var="cssFile">
-                <link rel="stylesheet" type="text/css" href="<c:url value="resources/css/${cssFile}.css"/>" />
+                <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/${cssFile}.css"/>" />
             </c:forTokens>
         </c:if>
     </head>

@@ -5,6 +5,6 @@
 --%>
 
 <jsp:include page="/WEB-INF/Template.jsp">
-    <jsp:param name="title" value="Accueil"/>
-    <jsp:param name="content" value="indexContent"/>
+    <jsp:param name="title" value="Accueil" />
+    <jsp:param name="content" value="indexContent" />
 </jsp:include>
