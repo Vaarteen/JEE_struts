@@ -4,8 +4,9 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 
-<jsp:include page="/WEB-INF/Template.jsp">
-    <jsp:param name="title" value="&Agrave; propos"/>
-    <jsp:param name="content" value="aboutContent"/>
-    <jsp:param name="cssFiles" value="about"/>
+<jsp:include page="/WEB-INF/templates/Template.jsp">
+    <jsp:param name="title" value="&Agrave; propos" />
+    <jsp:param name="content" value="aboutContent" />
+    <jsp:param name="cssFiles" value="about" />
+    <jsp:param name="footer" value="aboutFooter" />
 </jsp:include>
