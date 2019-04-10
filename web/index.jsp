@@ -4,7 +4,7 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 
-<jsp:include page="/WEB-INF/Template.jsp">
+<jsp:include page="/WEB-INF/templates/Template.jsp">
     <jsp:param name="title" value="Accueil" />
     <jsp:param name="content" value="indexContent" />
 </jsp:include>

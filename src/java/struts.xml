@@ -7,7 +7,7 @@
     <constant name="struts.devMode" value="true" />
 
     <package name="myActions" extends="struts-default">
-        <action name="index">
+        <action name="index" class="actions.IndexAction">
             <result>index.jsp</result>
         </action>
 
