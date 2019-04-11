@@ -13,4 +13,8 @@ public class MultiplicationTableAction extends ActionSupport {
     public int getFactor() {
         return factor;
     }
+
+    public void setFactor(int factor) {
+        this.factor = factor;
+    }
 }

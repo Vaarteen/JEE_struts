@@ -7,6 +7,7 @@
 <section>
     <h1>Accueil</h1>
     <p>Bonjour</p>
+    <hr>
     <p>Voici quelques boutons pour tester l'appel d'une méthode particulière pour une action donnée</p>
     <ul>
         <li>Le premier bouton appelle la méthode "method1" de l'action test</li>

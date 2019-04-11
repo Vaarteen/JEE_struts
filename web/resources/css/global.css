@@ -32,3 +32,10 @@ nav > ul > li {
 #date {
     font-weight: bold;
 }
+
+hr {
+    width: 50%;
+    height: 2px;
+    background-color: brown;
+    margin: 2em;
+}
