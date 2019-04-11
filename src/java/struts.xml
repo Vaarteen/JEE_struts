@@ -20,7 +20,8 @@
 
         <action name="multiplicationTable"
                 class="actions.MultiplicationTableAction">
-            <result>WEB-INF/views/multiplicationTable.jsp</result>
+            <result name="success">WEB-INF/views/multiplicationTable.jsp</result>
+            <result name="input">WEB-INF/views/multiplicationTable.jsp</result>
         </action>
 
         <action name="*test"

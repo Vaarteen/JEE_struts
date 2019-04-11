@@ -7,6 +7,7 @@
 <section>
     <s:form action="multiplicationTable">
         <s:textfield size="5" name="factor" label="Entrez le coefficient de la table de multiplication"/>
+        <s:fielderror fieldName="factor"/>
         <s:submit value="Afficher la table de multiplication"/>
     </s:form>
     <hr>
