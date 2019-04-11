@@ -1,0 +1,10 @@
+/* 
+    Created on : 11 avr. 2019, 16:01:17
+    Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
+*/
+#buttons > a {
+    padding: 7px;
+    background-color: bisque;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
