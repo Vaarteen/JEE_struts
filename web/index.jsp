@@ -7,4 +7,5 @@
 <jsp:include page="/WEB-INF/templates/Template.jsp">
     <jsp:param name="title" value="Accueil" />
     <jsp:param name="content" value="indexContent" />
+    <jsp:param name="cssFiles" value="index" />
 </jsp:include>
