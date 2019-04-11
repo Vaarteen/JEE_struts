@@ -26,3 +26,9 @@ td {
     border-bottom: 1px solid black;
     text-align: center;
 }
+
+.errorMessage {
+    background-color: bisque;
+    font-style: italic;
+    color: red;
+}
