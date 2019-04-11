@@ -5,8 +5,10 @@
 
 <struts>
     <constant name="struts.devMode" value="true" />
-
+    
     <package name="myActions" extends="struts-default">
+        <default-action-ref name="index" />
+        
         <action name="index" class="actions.IndexAction">
             <result>index.jsp</result>
         </action>
