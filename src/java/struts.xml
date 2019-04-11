@@ -6,7 +6,7 @@
 <struts>
     <constant name="struts.devMode" value="true" />
     
-    <package name="myActions" extends="struts-default">
+    <package name="myActions" extends="struts-default" strict-method-invocation="false">
         <default-action-ref name="index" />
         
         <action name="index" class="actions.IndexAction">
@@ -21,6 +21,12 @@
         <action name="multiplicationTable"
                 class="actions.MultiplicationTableAction">
             <result>WEB-INF/views/multiplicationTable.jsp</result>
+        </action>
+
+        <action name="*test"
+                class="actions.TestAction"
+                method="{1}">
+            <result name="SUCCESS">WEB-INF/views/test.jsp</result>
         </action>
     </package>
 </struts>
