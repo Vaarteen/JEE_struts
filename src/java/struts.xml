@@ -6,7 +6,8 @@
 <struts>
     <constant name="struts.devMode" value="true" />
     
-    <package name="myActions" extends="struts-default" strict-method-invocation="false">
+    <package name="myActions" extends="struts-default">
+        <global-allowed-methods>method1, method2</global-allowed-methods>
         <default-action-ref name="index" />
         
         <action name="index" class="actions.IndexAction">
