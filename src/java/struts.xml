@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
-    "http://struts.apache.org/dtds/struts-2.5.dtd">
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
     <constant name="struts.devMode" value="true" />
     
     <package name="myActions" extends="struts-default">
-        <global-allowed-methods>method1, method2</global-allowed-methods>
         <default-action-ref name="index" />
         
         <action name="index" class="actions.IndexAction">
@@ -27,7 +26,8 @@
         <action name="*test"
                 class="actions.TestAction"
                 method="{1}">
-            <result name="SUCCESS">WEB-INF/views/test.jsp</result>
+            <result name="success">WEB-INF/views/test.jsp</result>
+            <allowed-methods>method1, method2, execute</allowed-methods>
         </action>
     </package>
 </struts>
