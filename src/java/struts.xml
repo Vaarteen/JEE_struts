@@ -18,6 +18,12 @@
             <result name="success">WEB-INF/views/about.jsp</result>
         </action>
 
+        <action name="login"
+                class="actions.LoginAction" method="execute">
+            <result name="input">WEB-INF/views/login.jsp</result>
+            <result type="redirectAction">accueil</result>
+        </action>
+
         <action name="multiplicationTable"
                 class="actions.MultiplicationTableAction">
             <result name="success">WEB-INF/views/multiplicationTable.jsp</result>
