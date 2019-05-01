@@ -6,8 +6,8 @@
 
 <section>
     <s:form action="login">
-        <s:textfield label="identifier" name="identifier"/>
-        <s:password label="password" name="password" />
+        <s:textfield label="identifier" name="identifier" maxlength="25"/>
+        <s:password label="password" name="password" maxlength="25"/>
         <s:submit/>
     </s:form>
 </section>
