@@ -17,12 +17,4 @@ public class MultiplicationTableAction extends ActionSupport {
     public void setFactor(int factor) {
         this.factor = factor;
     }
-
-    @Override
-    public void validate() {
-        if (factor < 0 || factor > 10) {
-            addFieldError("factor", "Le nombre doit être entre 0 et 10");
-        }
-    }
-
 }
