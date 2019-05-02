@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>${param.title}</title>
+        <title><s:text name="page.title"/></title>
         <link rel="stylesheet" href="<c:url value='/resources/css/global.css' />">
         <c:if test="${param.cssFiles!=null}">
             <c:forTokens items="${param.cssFiles}" delims="|" var="cssFile">

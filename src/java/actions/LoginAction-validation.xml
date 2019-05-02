@@ -4,22 +4,22 @@
 <validators>
     <field name="identifier">
         <field-validator type="requiredstring">
-            <message>Veuillez saisir un identifiant</message>
+            <message key="requiredIdentifier"/>
         </field-validator>
         <field-validator type="stringlength">
             <param name="maxLength">15</param>
             <param name="trim">true</param>
-            <message>L'identifiant ne doit pas excéder 15 caractères</message>
+            <message key="badIdentifierLength"/>
         </field-validator>
     </field>
     <field name="password">
         <field-validator type="requiredstring">
-            <message>Veuillez saisir un identifiant</message>
+            <message key="requiredPassword"/>
         </field-validator>
         <field-validator type="stringlength">
             <param name="minLength">5</param>
             <param name="maxLength">15</param>
-            <message>Le mot de passe doit comporter entre 5 et 15 caractères</message>
+            <message key="badPasswordLength"/>
         </field-validator>
     </field>
 </validators>
