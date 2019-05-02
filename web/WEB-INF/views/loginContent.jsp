@@ -6,8 +6,8 @@
 
 <section>
     <s:form action="login">
-        <s:textfield label="identifier" name="identifier" maxlength="25"/>
-        <s:password label="password" name="password" maxlength="25"/>
-        <s:submit/>
+        <s:textfield name="identifier" label="%{getText('identifier')}" maxlength="25"/>
+        <s:password key="password" maxlength="25"/>
+        <s:submit value="%{getText('submit')}"/>
     </s:form>
 </section>

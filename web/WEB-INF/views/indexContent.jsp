@@ -5,15 +5,15 @@
 --%>
 
 <section>
-    <h1>Accueil</h1>
-    <p>Bonjour</p>
+    <h1><s:text name="home.title"/></h1>
+    <p><s:text name="home.text"/></p>
     <hr>
-    <p>Voici quelques boutons pour tester l'appel d'une méthode particulière pour une action donnée</p>
+    <p><s:text name="test.text"/></p>
     <ul>
-        <li>Le premier bouton appelle la méthode "method1" de l'action test</li>
-        <li>Le second bouton appelle la méthode "method2" de l'action test</li>
-        <li>Le troisième bouton appelle la méthode "execute" (par défaut) de l'action test</li>
-        <li>Le dernier bouton appelle la méthode "errorAction" de l'action test, qui n'existe pas et retourne donc à l'accueil</li>
+        <li><s:text name="test.method1"/></li>
+        <li><s:text name="test.method2"/></li>
+        <li><s:text name="test.execute"/></li>
+        <li><s:text name="test.errorAction"/></li>
     </ul>
     <div id='buttons'>
         <a href="<s:url value="method1test" />">method1</a>

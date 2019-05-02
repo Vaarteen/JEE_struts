@@ -4,4 +4,4 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 
-<p>Cette page a été affichée <s:property value='visits' /> fois lors de cette session.</p>
+<p><s:text name="visit.start"/> <s:property value='visits' /> <s:text name="visit.end"/></p>

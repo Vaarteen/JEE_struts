@@ -7,6 +7,7 @@ import com.opensymphony.xwork2.ActionSupport;
  * @author Herbert Caffarel <herbert.caffarel@cicef.pro>
  */
 public class LoginAction extends ActionSupport {
+
     private String identifier = "";
     private String password = "";
 
@@ -17,6 +18,7 @@ public class LoginAction extends ActionSupport {
         };
         return SUCCESS;
     }
+
     // Setters & Getters
     public String getIdentifier() {
         return identifier;
