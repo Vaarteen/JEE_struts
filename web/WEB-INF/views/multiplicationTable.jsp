@@ -5,7 +5,6 @@
 --%>
 
 <jsp:include page="/WEB-INF/templates/Template.jsp">
-    <jsp:param name="title" value="Table de multiplication par <s:property value='factor' />" />
     <jsp:param name="content" value="multiplicationTableContent" />
     <jsp:param name="cssFiles" value="multiplicationTable" />
 </jsp:include>
