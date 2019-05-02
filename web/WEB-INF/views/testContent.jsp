@@ -4,5 +4,5 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 
-<h1>Ceci est une page de test</h1>
-<p>Vous avez choisi la méthode <s:property value="method" /></p>
+<h1><s:text name="test.title"/></h1>
+<p><s:text name="test.text"/> <s:property value="method" /></p>

@@ -5,6 +5,5 @@
 --%>
 
 <jsp:include page="/WEB-INF/templates/Template.jsp">
-    <jsp:param name="title" value="Tests de méthodes" />
     <jsp:param name="content" value="testContent" />
 </jsp:include>
