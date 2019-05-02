@@ -15,17 +15,29 @@ footer {
     font-style: oblique;
 }
 
-nav > ul > li {
+header > nav > ul > li {
     display: inline-block;
     list-style-type: none;
     padding: 5px;
     margin: 0px 5px 5px 0px;;
+}
+
+#links {
+    float: left;
+}
+
+#langs {
+    float: right;
+}
+
+#links > li {
     background-color: peru;
     border : 1px solid brown;
     border-radius: 5px 0px;
 }
 
 #content {
+    clear:both;
     padding:10px;
 }
 
