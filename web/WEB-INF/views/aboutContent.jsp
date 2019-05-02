@@ -4,11 +4,11 @@
     Author     : Herbert Caffarel <herbert.caffarel@cicef.pro>
 --%>
 <section>
-    <h1>Objectif</h1>
-    <p>Prendre le framework Struts en main</p>
-    <h1>Equipe de développement</h1>
+    <h1><s:text name="purpose.title"/></h1>
+    <p><s:text name="purpose.text"/></p>
+    <h1><s:text name="devTeam"/></h1>
     <ul id="team"><li class="hecaff">H. Caffarel</li></ul>
 </section>
 <section id="date">
-    <p>Nous sommes le <s:property value="today" /></p>
+    <p><s:text name="date"/> <s:property value="today" /></p>
 </section>
